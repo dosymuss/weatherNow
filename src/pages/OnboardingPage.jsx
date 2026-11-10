@@ -15,7 +15,7 @@ const OnboardingPage = () => {
     return function clean(){
       clearTimeout(x)
     }
-  },[])
+  },[navigate])
 
   return (
     <div className={styles.wrap}>
