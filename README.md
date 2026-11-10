@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Weather API configuration
+
+The app uses the Tomorrow.io API. Copy `.env.example` to `.env.local` and set
+`REACT_APP_TOMORROW_API_KEY` to your own API key. Restart the development server
+after changing the environment file. Do not commit `.env.local`.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
