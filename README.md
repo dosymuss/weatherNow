@@ -1,76 +1,67 @@
-# Getting Started with Create React App
+# 🌦️ WeatherNow — Приложение для прогноза погоды
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**WeatherNow** — мой личный pet-проект, представляющий собой веб-приложение для просмотра текущей погоды и прогноза на ближайшие дни.
 
-## Available Scripts
+Основная цель проекта — предоставить пользователям удобный и наглядный интерфейс для получения актуальной информации о погодных условиях. Приложение отображает текущую температуру, облачность, влажность, вероятность осадков, скорость ветра и другие погодные показатели.
 
-In the project directory, you can run:
 
-### `npm start`
+## 📸 Скриншот проекта
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![WeatherNow](./public/screen.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Основные возможности
 
-## Weather API configuration
+- **Текущая погода** — отображение температуры и текущих погодных условий.
+- **Подробная информация** — влажность, облачность, вероятность осадков, количество дождя и снега, скорость ветра и ощущаемая температура.
+- **Прогноз на ближайшие дни** — просмотр погодных условий на несколько дней вперёд.
+- **Дополнительная панель** — подробная информация о погоде и прогнозе.
+- **Динамический интерфейс** — визуальное оформление, адаптирующееся под погодные условия.
+- **Адаптивный дизайн** — корректное отображение приложения на различных устройствах.
 
-The app uses the Tomorrow.io API. Copy `.env.example` to `.env.local` and set
-`REACT_APP_TOMORROW_API_KEY` to your own API key. Restart the development server
-after changing the environment file. Do not commit `.env.local`.
+## 🛠️ Используемые технологии
 
-### `npm test`
+- **React 18** — разработка пользовательского интерфейса.
+- **JavaScript (ES6+)** — основная логика приложения.
+- **React Router DOM** — маршрутизация.
+- **TanStack Query (React Query)** — получение и управление серверными данными.
+- **Axios** — выполнение HTTP-запросов к API.
+- **Material UI (MUI)** — готовые компоненты интерфейса.
+- **Emotion** — стилизация компонентов.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Установка и запуск
 
-### `npm run build`
+1. Клонировать репозиторий:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone YOUR_REPOSITORY_LINK
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Перейти в папку проекта:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd weather-now
+   ```
 
-### `npm run eject`
+3. Установить зависимости:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Запустить проект:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Открыть приложение в браузере:
 
-## Learn More
+   ```text
+   http://localhost:3000
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Цель проекта
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Проект разработан в рамках самостоятельной практики (Pet Project) для закрепления навыков работы с React, изучения взаимодействия с внешними API, обработки асинхронных запросов и создания интерактивных пользовательских интерфейсов.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+В процессе разработки были закреплены навыки работы с компонентной архитектурой React, TanStack Query, Axios и Material UI.
